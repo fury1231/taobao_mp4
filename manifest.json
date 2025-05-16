@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Taobao MP4 抓取器",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["*://*.taobao.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
